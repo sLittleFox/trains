@@ -39,7 +39,6 @@ let distances = {
             lviv: 786
     }
 };
-
         
 let pointFromIndex = Math.floor(Math.random() * 5);
 
@@ -53,7 +52,7 @@ let pointToIndex = Math.floor(Math.random() * 4);
 
 let pointTo = (filtered[pointToIndex]);
 
-let randDepartTime = Math.floor(Math.random() * 10080); // випадковий час відправлення (в хвилинах)
+let randDepartTime = Math.floor(Math.random() * 10080); // випадковий час відправлення (в хвилинах 7 днів)
 
 let hours = randDepartTime / 420;
 
